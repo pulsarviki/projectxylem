@@ -1,0 +1,1398 @@
+Sep 18, 2017 12:05:56 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:05:56 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:09:17 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:09:17 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:13:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:13:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:14:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:14:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:16:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:16:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:21:50 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:21:51 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:31:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:31:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:43:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:43:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:45:54 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ebuy]
+Sep 18, 2017 12:45:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:45:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:47:25 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:47:25 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:51:25 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:51:26 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:55:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:55:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:58:47 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:58:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 12:59:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 12:59:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:00:14 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 1:00:14 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 1:00:14 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 1:00:18 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 1:00:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 1:00:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 1:00:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 497 ms
+Sep 18, 2017 1:00:18 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 1:00:18 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 1:00:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 1:00:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 1:00:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 1:00:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 1:00:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 1:00:21 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 1:00:21 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 1:00:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2637 ms
+Sep 18, 2017 1:01:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:01:02 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:04:32 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:04:33 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:09:13 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:09:14 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:14:14 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:14:15 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:16:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:16:46 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:17:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:17:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:18:46 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:18:47 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:24:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:24:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:27:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:27:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:28:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:29:00 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:33:30 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:33:31 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:35:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:35:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:38:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:38:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:40:13 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:40:13 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:54:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:54:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 1:57:56 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 1:57:56 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:03:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:03:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:04:17 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:04:18 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:16:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:16:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:19:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:19:06 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:22:46 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:22:47 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:23:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:23:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:24:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:24:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:25:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:25:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:27:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:27:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:30:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:30:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:33:10 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:33:10 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:36:10 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:36:11 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:38:31 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:38:32 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:26:14 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 2:26:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:26:15 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 2:26:15 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 2:26:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 857 ms
+Sep 18, 2017 2:26:15 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 2:26:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 2:26:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 2:26:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 2:26:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 2:26:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 2:26:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 2:26:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 2:26:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 2:26:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 2:26:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 2:26:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 2:26:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 2:26:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3366 ms
+Sep 18, 2017 2:26:25 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:25 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:26:25 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:28 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 2:26:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:26:28 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 2:26:28 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 2:26:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 678 ms
+Sep 18, 2017 2:26:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 2:26:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 2:26:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 2:26:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 2:26:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 2:26:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 2:26:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 2:26:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 2:26:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 2:26:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 2:26:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 2:26:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 2:26:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 2:26:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:26:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3298 ms
+Sep 18, 2017 2:28:11 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 2:28:14 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 2:28:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:14 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 18, 2017 2:28:14 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 18, 2017 2:28:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 521 ms
+Sep 18, 2017 2:28:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 2:28:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 2:28:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 2:28:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 2:28:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 2:28:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 2:28:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 2:28:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 2:28:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 2:28:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 2:28:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 2:28:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 2:28:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2770 ms
+Sep 18, 2017 2:28:17 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:17 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:17 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:32 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:35 PM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:499)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:371)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:453)
+
+Sep 18, 2017 2:28:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 2:28:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 558 ms
+Sep 18, 2017 2:28:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 2:28:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 2:28:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 2:28:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 2:28:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 2:28:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 2:28:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 2:28:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 2:28:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 2:28:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 2:28:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 2:28:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 2:28:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 2:28:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:28:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:28:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2633 ms
+Sep 18, 2017 2:33:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:33:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:37:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:37:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:39:24 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:39:24 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:41:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:41:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:42:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:42:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:46:06 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:46:06 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:46:06 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:46:08 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 2:46:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:46:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:46:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 495 ms
+Sep 18, 2017 2:46:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 2:46:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 2:46:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 2:46:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 2:46:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 2:46:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 2:46:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 2:46:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 2:46:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 2:46:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 2:46:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 2:46:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 2:46:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 2:46:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 2:46:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 2:46:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3077 ms
+Sep 18, 2017 2:46:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:46:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:47:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:47:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:50:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:50:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:51:04 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:51:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 2:53:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 2:53:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 3:40:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 3:40:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 3:42:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 3:42:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:18:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:18:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:21:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:21:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:22:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:22:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:25:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:25:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:26:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:26:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:28:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:28:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:29:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:29:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:30:33 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 4:30:33 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 4:30:33 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 4:30:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 4:30:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 4:30:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 4:30:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 585 ms
+Sep 18, 2017 4:30:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 4:30:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 4:30:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 4:30:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 4:30:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 4:30:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 4:30:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 4:30:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 4:30:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 4:30:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 4:30:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 4:30:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 4:30:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 4:30:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 4:30:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 4:30:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2955 ms
+Sep 18, 2017 4:32:49 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:32:50 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:33:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:33:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:34:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:34:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:42:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:42:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:46:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:46:03 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated
+Sep 18, 2017 4:46:03 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 4:54:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 4:54:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 5:07:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 5:07:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 5:08:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 5:08:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 5:09:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 5:09:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:12:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:12:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:13:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:13:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:15:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:15:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:15:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:15:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:24:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:24:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:28:26 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ebuy]
+Sep 18, 2017 9:28:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:28:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:28:47 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:28:47 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:28:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:28:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 9:28:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:28:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:28:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 708 ms
+Sep 18, 2017 9:28:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 9:28:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 9:28:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 9:28:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 9:28:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 9:28:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 9:28:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 9:28:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 9:28:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 9:28:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 9:28:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:28:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:28:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3047 ms
+Sep 18, 2017 9:32:51 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 9:32:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:32:51 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 9:32:51 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 18, 2017 9:32:51 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:32:52 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 18, 2017 9:32:52 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 18, 2017 9:32:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 542 ms
+Sep 18, 2017 9:32:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 9:32:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 9:32:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 9:32:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 9:32:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 9:32:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 9:32:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 9:32:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 9:32:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 9:32:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 9:32:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 9:32:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 9:32:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 9:32:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3222 ms
+Sep 18, 2017 9:32:55 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+
+Sep 18, 2017 9:32:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 9:32:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 9:32:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 9:33:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:33:26 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:34:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:34:37 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:34:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:34:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:37:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:37:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:49:20 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:49:21 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:49:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:49:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:56:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:56:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:57:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:57:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 9:59:14 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 9:59:14 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:00:14 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:00:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:03:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:03:05 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:08:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:09:50 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated
+Sep 18, 2017 10:09:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:12:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:12:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:13:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:13:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:14:09 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 10:14:09 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 10:14:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 10:14:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 10:14:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 10:14:12 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 10:14:12 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 496 ms
+Sep 18, 2017 10:14:12 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 10:14:12 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 10:14:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 10:14:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 10:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 10:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 10:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 10:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 10:14:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 10:14:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 10:14:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 10:14:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 10:14:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 10:14:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 10:14:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 10:14:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2903 ms
+Sep 18, 2017 10:14:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:14:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:32:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:32:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:34:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:34:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:34:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:34:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 10:35:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 10:35:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 11:12:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 11:12:24 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 11:13:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 11:13:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 11:14:05 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 11:14:05 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 11:14:20 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+Sep 18, 2017 11:14:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 11:14:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 11:14:20 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 489 ms
+Sep 18, 2017 11:14:20 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 18, 2017 11:14:20 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 18, 2017 11:14:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 18, 2017 11:14:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 18, 2017 11:14:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 18, 2017 11:14:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 18, 2017 11:14:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 18, 2017 11:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 18, 2017 11:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 18, 2017 11:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 18, 2017 11:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 18, 2017 11:14:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 18, 2017 11:14:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 18, 2017 11:14:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 18, 2017 11:14:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 18, 2017 11:14:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2939 ms
+Sep 18, 2017 11:14:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 11:14:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 18, 2017 11:58:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 18, 2017 11:58:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
