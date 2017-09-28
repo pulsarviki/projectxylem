@@ -58,7 +58,7 @@ public class ProductPage extends HttpServlet {
 		  String usertype=(String)session.getAttribute("usertype");
 			String username=(String)session.getAttribute("username");
 			//contentManager.setContent("This is Home Page you are logged in! "+username+usertype);
-		  contentManager.setHeader(usertype,username);
+		  contentManager.setHeader(usertype,username,contentManager.getProductsCount(session));
 
 			//---------Product Display-------------
 

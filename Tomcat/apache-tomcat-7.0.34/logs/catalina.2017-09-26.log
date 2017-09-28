@@ -1,0 +1,126 @@
+Sep 26, 2017 12:35:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 12:35:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:08:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:08:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:09:44 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ebuy]
+Sep 26, 2017 1:09:44 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:09:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:10:40 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 26, 2017 1:10:40 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 26, 2017 1:10:40 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 26, 2017 1:10:46 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Softwares\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Softwares\Java\jdk1.8.0_121\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\DDrive\Git\cmd;C:\DDrive\Software\GnuPG\pub;C:\DDrive\Python27;C:\Softwares\Anaconda;C:\Softwares\Anaconda\Scripts;C:\Softwares\Anaconda\Library\bin;C:\D Drive\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\cygwin64\bin\;C:\cygwin64\usr\local\bin;C:\DDrive\Software\Anaconda;C:\DDrive\Software\Anaconda\Scripts;C:\DDrive\Software\Anaconda\Library\bin;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\Users\venka\AppData\Local\atom\bin;C:\DDrive\Python27;C:\Users\venka\AppData\Local\Microsoft\WindowsApps;C:\cygwin64\bin;;.
+Sep 26, 2017 1:10:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Sep 26, 2017 1:10:47 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 26, 2017 1:10:47 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 712 ms
+Sep 26, 2017 1:10:47 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 26, 2017 1:10:47 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Sep 26, 2017 1:10:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\csj
+Sep 26, 2017 1:10:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\css
+Sep 26, 2017 1:10:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\docs
+Sep 26, 2017 1:10:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ebuy
+Sep 26, 2017 1:10:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\examples
+Sep 26, 2017 1:10:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\host-manager
+Sep 26, 2017 1:10:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\images
+Sep 26, 2017 1:10:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\manager
+Sep 26, 2017 1:10:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\noimages
+Sep 26, 2017 1:10:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\ROOT
+Sep 26, 2017 1:10:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\DDrive\SoftwareProjects\ProjectX\Tomcat\apache-tomcat-7.0.34\webapps\sample
+Sep 26, 2017 1:10:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Sep 26, 2017 1:10:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 26, 2017 1:10:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3500 ms
+Sep 26, 2017 1:32:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:32:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:51:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:51:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:54:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:54:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:55:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:55:08 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:55:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:55:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 1:58:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 1:58:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:21:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:21:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:24:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:24:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:26:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:26:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:29:30 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:29:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:30:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:30:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:31:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:31:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:36:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:36:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 26, 2017 8:40:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 26, 2017 8:40:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed

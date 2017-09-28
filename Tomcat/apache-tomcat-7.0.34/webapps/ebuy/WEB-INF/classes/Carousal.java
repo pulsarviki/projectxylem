@@ -69,10 +69,11 @@ public class Carousal{
 		"		<a href=\"details.html\">"+a.getName()+"</a>"+
 		"		<div> Discount: $"+a.getDiscount()+"</div>"+
 		"		<div>Price: $"+a.getPrice()+"</div>"+
-		"<form action=\"/csj/cart?act=addacc\" method = \"post\">"+
+		"<form action=\"/ebuy/CartPage?act=addacc\" method = \"post\">"+
 		"  <input type=\"hidden\" name=\"accname\" value= \""+a.getName()+"\">"+
 		"  <input type=\"hidden\" name=\"price\" value=\""+a.getPrice()+"\">"+
 		"  <input type=\"hidden\" name=\"discount\" value=\""+a.getDiscount()+"\">"+
+		"  <input type=\"hidden\" name=\"category\" value=\""+category+"\">"+
 		"  <button type = \"submit\" value= \"+Cart\" class=\"addtocart\">+Cart</button>"+
 		"</form>"+
 		"</div>";

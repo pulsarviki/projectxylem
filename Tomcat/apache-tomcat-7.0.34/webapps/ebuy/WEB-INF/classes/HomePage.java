@@ -59,7 +59,7 @@ public class HomePage extends HttpServlet {
 		  String usertype=(String)session.getAttribute("usertype");
 			String username=(String)session.getAttribute("username");
 			//contentManager.setContent("This is Home Page you are logged in! "+username+usertype);
-		  contentManager.setHeader(usertype,username);
+		  contentManager.setHeader(usertype,username,contentManager.getProductsCount(session));
 
 			//---------Product Display-------------
 
@@ -133,6 +133,7 @@ public class HomePage extends HttpServlet {
 "      <form method=\"post\" action=\"/ebuy/CartPage\" style=\"display:inline\">"+
          "  <input type=\"hidden\" name=\"name\" value= \""+c.getName()+"\">"+
 										"  <input type=\"hidden\" name=\"price\" value=\""+c.getPrice()+"\">"+
+										"  <input type=\"hidden\" name=\"category\" value=\""+c.getCategory()+"\">"+
 									"  <input type=\"hidden\" name=\"rdiscount\" value= \""+c.getRdiscount()+"\">"+
 									"  <input type=\"hidden\" name=\"rwarranty\" value=\""+c.getRwarranty()+"\">"+
 										"  <input type=\"hidden\" name=\"discount\" value=\""+c.getDiscount()+"\">"+

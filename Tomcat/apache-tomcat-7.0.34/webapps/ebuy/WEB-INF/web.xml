@@ -72,6 +72,24 @@
 	<servlet-name>RegisterPage</servlet-name>
 	<url-pattern>/RegisterPage</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>CartPage</servlet-name>
+	<servlet-class>CartPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>CartPage</servlet-name>
+	<url-pattern>/CartPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>CheckoutPage</servlet-name>
+	<servlet-class>CheckoutPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>CheckoutPage</servlet-name>
+	<url-pattern>/CheckoutPage</url-pattern>
+  </servlet-mapping>
 
   <servlet>
   <servlet-name>LogoutPage</servlet-name>

@@ -20,3 +20,11 @@
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:04:08 -0500] "GET /images/Others.jpg HTTP/1.1" 404 985
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:04:08 -0500] "GET /images/Others.jpg HTTP/1.1" 404 985
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:04:10 -0500] "GET /ebuy/ProductPage?productname=SONY HTTP/1.1" 200 5321
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:32 -0500] "GET /ebuy/ProductPage?productname=SONY HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:32 -0500] "GET /ebuy/LoginPage HTTP/1.1" 200 2501
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:32 -0500] "GET /css/940.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:43 -0500] "POST /ebuy/LoginPage HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:43 -0500] "GET /ebuy/HomePage HTTP/1.1" 200 48348
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:43 -0500] "GET /images/Others.jpg HTTP/1.1" 404 985
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:44 -0500] "GET /images/Others.jpg HTTP/1.1" 404 985
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:00:17:46 -0500] "GET /ebuy/ProductPage?productname=SONY HTTP/1.1" 200 8426

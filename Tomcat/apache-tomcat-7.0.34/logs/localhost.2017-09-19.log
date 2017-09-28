@@ -1,0 +1,8 @@
+Sep 19, 2017 12:16:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializion of AuthenticationFilter 
+Sep 19, 2017 12:16:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Sep 19, 2017 12:16:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Sep 19, 2017 12:16:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4cd677e5')

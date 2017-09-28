@@ -7,6 +7,11 @@ import javax.servlet.http.*;
 
 public class PageContent {
 
+	public static HashMap<String, Product> products = new HashMap<String, Product>();
+public static HashMap<String, Users> users = new HashMap<String, Users>();
+public static HashMap<String, Order> orders = new HashMap<String, Order>();
+//public static HashMap<String, CartItem> cartItems = new HashMap<String, CartItem>();
+
 	HttpServletRequest request;
 	private String CONTENT;
 	private String BASICS;
@@ -172,7 +177,30 @@ public static void  writeToFile(Object obj, String filename){
 					"</div>";
   }
 
-  public void setHeader( String header, String username) {
+	public int getProductsCount(HttpSession session)
+	{
+		int cartacc_count,cartproducts_count;
+		HashMap<String, Product> cartproducts = (HashMap<String, Product>) session.getAttribute("cart");
+		HashMap<String, Accessory> cartacc = (HashMap<String, Accessory>) session.getAttribute("cartacc");
+		if(cartacc==null)
+		 {
+			 cartacc_count=0;
+		 }
+		 else{
+			 cartacc_count=cartacc.size();
+		 }
+		 if(cartproducts==null)
+		 {
+			 cartproducts_count=0;
+		 }
+		 else{
+			 cartproducts_count=cartproducts.size();
+		 }
+		 return cartproducts_count+cartacc_count;
+
+	}
+
+  public void setHeader( String header, String username, int product_count) {
 		if(header==null){
 	  	this.HEADER = this.DEFAULT_HEADER;
 	  }
@@ -185,7 +213,7 @@ public static void  writeToFile(Object obj, String filename){
 			"<li><a href=\"#\">Track Order</a></li>"+
 			"<li><a href=\"/ebuy/LogoutPage\">Logout</a></li>"+
 			"</ul>"+
-			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp;</div>"+
+			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp; <a style=\"color:white\" href=\"/ebuy/CartPage\"> Cart("+product_count+")</a></div>"+
 			"</div>";
 	  }
 		else if(header.toUpperCase().equals("STOREMANAGER")){
@@ -251,6 +279,36 @@ public static void  writeToFile(Object obj, String filename){
   	return getBasics() + getHeader()  + getContent() + getSideBar() + getFooter();
   }
 
+	public static HashMap<String, Product> getProducts() {
+		return products;
+	}
 
+	public static void setProducts(HashMap<String, Product> products) {
+		PageContent.products = products;
+	}
+
+	public static HashMap<String, Users> getUsers() {
+		return users;
+	}
+
+	public static void setUsers(HashMap<String, Users> users) {
+		PageContent.users = users;
+	}
+
+	public static HashMap<String, Order> getOrders() {
+		return orders;
+	}
+
+	public static void setOrders(HashMap<String, Order> orders) {
+		PageContent.orders = orders;
+	}
+
+	// public static HashMap<String, CartItem> getCartItems() {
+	// 	return cartItems;
+	// }
+	//
+	// public static void setCartItems(HashMap<String, CartItem> cartItems) {
+	// 	PageContent.cartItems = cartItems;
+	// }
 
 }

@@ -1,0 +1,42 @@
+Sep 28, 2017 12:33:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 12:33:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:07:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 1:07:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:08:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 1:08:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:10:46 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/ebuy]
+Sep 28, 2017 1:10:46 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 1:10:47 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:13:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 1:13:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:13:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 28, 2017 1:13:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
+Sep 28, 2017 1:16:55 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2017 1:16:55 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Sep 28, 2017 1:16:55 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

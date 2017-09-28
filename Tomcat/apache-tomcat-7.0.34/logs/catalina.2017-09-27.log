@@ -1,0 +1,4 @@
+Sep 27, 2017 11:31:41 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] has started
+Sep 27, 2017 11:31:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/ebuy] is completed
