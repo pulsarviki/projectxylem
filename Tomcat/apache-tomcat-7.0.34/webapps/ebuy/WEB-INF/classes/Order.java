@@ -5,12 +5,14 @@ public class Order implements java.io.Serializable{
 	private String id;
 	private String description;
 	private String buyer;
+  private String shipName;
+  private String shipAddress;
 	private String retailer;
 	private double price;
   private HashMap<String,Product> products;
   private HashMap<String,Accessory> accessories;
 
-	private String status = "ORDERED";
+	private String status = "PLACED";
 	private Date orderDate = new Date();
 
 	public Order(String id, String description, String buyer, String status){
@@ -31,6 +33,22 @@ public class Order implements java.io.Serializable{
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+  public String getShipName() {
+		return shipName;
+	}
+
+	public void setShipName(String shipName) {
+		this.shipName = shipName;
+	}
+
+  public String getShipAddress() {
+		return shipAddress;
+	}
+
+	public void setShipAddress(String shipAddress) {
+		this.shipAddress = shipAddress;
 	}
 
 	public String getBuyer() {
@@ -58,8 +76,39 @@ public class Order implements java.io.Serializable{
 	}
 
 	public String getStatus() {
-		return status;
+    System.out.println("Fetching status!");
+    Date deliveryDate = new Date();
+    deliveryDate = addDays(this.getOrderDate(), 14);
+
+    Date processedDate = new Date();
+    processedDate = addDays(this.getOrderDate(), 9);
+
+    Date todaysDate=new Date();
+    if(!this.status.equalsIgnoreCase("CANCELLED"))
+    {
+      if(todaysDate.compareTo(processedDate)>=0)
+      {
+        if(todaysDate.compareTo(deliveryDate)>=0)
+        {
+          return "DELIVERED";
+        }
+        else{
+          return "PROCESSED";
+        }
+      }
+      else{
+        return status;
+      }
+    }
+    return status;
 	}
+
+  private Date addDays(Date d, int days)
+    {
+        Date ddate=new Date(d.getTime());
+        ddate.setTime(d .getTime() + days * 1000 * 60 * 60 * 24);
+        return ddate;
+    }
 
 	public void setStatus(String status) {
 		this.status = status;

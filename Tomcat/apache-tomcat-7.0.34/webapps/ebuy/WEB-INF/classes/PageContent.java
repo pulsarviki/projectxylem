@@ -73,13 +73,12 @@ public static HashMap<String, Order> orders = new HashMap<String, Order>();
 "<div id=\"wrap\">"+
 ""+
 "<div id=\"header\">"+
-"<h1><a href=\"#\">ebuy.com</a></h1>"+
+"<h1><a href=\"#\">Smart Portables Shopping Portal</a></h1>"+
 "</div>";
 
 this.DEFAULT_HEADER  = "<div id=\"menu\">"+
 "<ul>"+
 "<li><a href=\"/ebuy/HomePage\">Home</a></li>"+
-"<li><a href=\"940px.html\">About Us</a></li>"+
 "<li><a href=\"/ebuy/RegisterPage\">Register</a></li>"+
 "<li><a href=\"/ebuy/LoginPage\">Login</a></li>"+
 "</ul>"+
@@ -88,7 +87,6 @@ this.DEFAULT_HEADER  = "<div id=\"menu\">"+
 	this.HEADER  = "<div id=\"menu\">"+
 "<ul>"+
 "<li><a href=\"/ebuy/HomePage\">Home</a></li>"+
-"<li><a href=\"940px.html\">About Us</a></li>"+
 "<li><a href=\"/ebuy/RegisterPage\">Register</a></li>"+
 "<li><a href=\"/ebuy/LoginPage\">Login</a></li>"+
 "</ul>"+
@@ -125,7 +123,7 @@ this.RETAILER_HEADER  = "";
 
 
     this.FOOTER = "<div id=\"footer\">"+
-"<p>Copyright 2010 You | Design by <a href=\"http://www.blogliber.com\">Blog Liber</a></p>"+
+"<p>Enterprise Web Applications | Design by <a href=\"https://www.linkedin.com/in/venkatesh-tahiliani-87a6a36a/\">Venkatesh</a></p>"+
 "</div>"+
 ""+
 "</div>"+
@@ -208,46 +206,122 @@ public static void  writeToFile(Object obj, String filename){
 	  	this.HEADER = "<div id=\"menu\">"+
 			"<ul>"+
 			"<li><a href=\"/ebuy/HomePage\">Home</a></li>"+
-			"<li><a href=\"940px.html\">My Account</a></li>"+
-			"<li><a href=\"without730px.html\">My Orders</a></li>"+
-			"<li><a href=\"#\">Track Order</a></li>"+
+			"<li><a href=\"/ebuy/MyAccountPage\">My Account</a></li>"+
+			"<li><a href=\"/ebuy/OrdersPage\">My Orders</a></li>"+
 			"<li><a href=\"/ebuy/LogoutPage\">Logout</a></li>"+
 			"</ul>"+
 			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp; <a style=\"color:white\" href=\"/ebuy/CartPage\"> Cart("+product_count+")</a></div>"+
 			"</div>";
-	  }
+
+			this.SIDEBAR = "<div id=\"sidebar\">"+
+		"<h3>Menu Navigation</h3>"+
+		"<ul>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Smartwatches\">Smart Watches</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Speakers\">Speakers</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Headphones\">Headphones</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Phones\">Phones</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Laptops\">Laptops</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Externalstorage\">External Storage</a></li>"+
+		"<li><a href=\"/ebuy/HomePage?cat=Others\">Others</a></li>"+
+		"</ul>"+
+		""+
+		"</div>"+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		"</div>";
+
+		}
 		else if(header.toUpperCase().equals("STOREMANAGER")){
 	  	this.HEADER = "<div id=\"menu\">"+
 			"<ul>"+
-			"<li><a href=\"/ebuy/HomePage\">Home</a></li>"+
-			"<li><a href=\"940px.html\">My Account</a></li>"+
-			"<li><a href=\"#\">Manage Products</a></li>"+
+			"<li><a href=\"/ebuy/MyAccountPage\">My Account</a></li>"+
+			"<li><a href=\"/ebuy/ManageProducts\">Manage Products</a></li>"+
 			"<li><a href=\"/ebuy/LogoutPage\">Logout</a></li>"+
 			"</ul>"+
 			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp;</div>"+
 			"</div>";
+
+			String contentStr1 = "<form action=\"/ebuy/UpdateAddProduct?act=add\" method = \"post\">"+
+			"<button type=\"submit\" value=\"Add Product\" class=\"btn-link\">Add Product</button>"+
+      "</form>";
+
+      String contentStr2 = "<form action=\"/ebuy/UpdateAddProduct?act=addacc\" method = \"post\">"+
+      "<button type=\"submit\" value=\"Add Accessory\" class=\"btn-link\">Add Accessory</button>"+
+      "</form>";
+
+
+			this.SIDEBAR = "<div id=\"sidebar\">"+
+		"<h3>Menu Navigation</h3>"+
+		"<ul>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Smartwatches\">Smart Watches</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Speakers\">Speakers</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Headphones\">Headphones</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Phones\">Phones</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Laptops\">Laptops</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Externalstorage\">External Storage</a></li>"+
+		"<li><a href=\"/ebuy/ManageProducts?cat=Others\">Others</a></li>"+
+		"</ul>"+
+		"<h3>Product Utility</h3>"+
+		"<ul>"+
+		"<li>"+contentStr1+"</li>"+
+		"<li>"+contentStr2+"</li>"+
+		"</ul>"+
+		"</div>"+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		"</div>";
+
+
 	  }
 		else if(header.toUpperCase().equals("RETAILER")){
 	  	this.HEADER = "<div id=\"menu\">"+
 			"<ul>"+
-			"<li><a href=\"/HomePage\">Home</a></li>"+
-			"<li><a href=\"940px.html\">My Account</a></li>"+
-			"<li><a href=\"#\">Manage Offers</a></li>"+
+			"<li><a href=\"/ebuy/MyAccountPage\">My Account</a></li>"+
+			"<li><a href=\"/ebuy/RetailerUpdate\">Manage Offers</a></li>"+
 			"<li><a href=\"/ebuy/LogoutPage\">Logout</a></li>"+
 			"</ul>"+
 			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp;</div>"+
 			"</div>";
+
+			this.SIDEBAR = "<div id=\"sidebar\">"+
+		"<h3>Menu Navigation</h3>"+
+		"<ul>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Smartwatches\">Smart Watches</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Speakers\">Speakers</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Headphones\">Headphones</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Phones\">Phones</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Laptops\">Laptops</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Externalstorage\">External Storage</a></li>"+
+		"<li><a href=\"/ebuy/RetailerUpdate?cat=Others\">Others</a></li>"+
+		"</ul>"+
+		"</div>"+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		""+
+		"<div style=\"clear: both;\"> </div>"+
+		""+
+		"</div>";
+
 	  }
 		else if(header.toUpperCase().equals("SALESMAN")){
 	  	this.HEADER = "<div id=\"menu\">"+
 			"<ul>"+
-			"<li><a href=\"/ebuy/HomePage\">Home</a></li>"+
-			"<li><a href=\"940px.html\">My Account</a></li>"+
-			"<li><a href=\"without730px.html\">Create Account</a></li>"+
-			"<li><a href=\"#\">Manage Orders</a></li>"+
+			"<li><a href=\"/ebuy/HomePage\">Place Order</a></li>"+
+			"<li><a href=\"/ebuy/MyAccountPage\">My Account</a></li>"+
+			"<li><a href=\"/ebuy/RegisterPage?act=CreateUser\">Create Account</a></li>"+
+			"<li><a href=\"/ebuy/OrdersPage\">Manage Orders</a></li>"+
 			"<li><a href=\"/ebuy/LogoutPage\">Logout</a></li>"+
 			"</ul>"+
-			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp;</div>"+
+			"<div style=\"float: right\">Welcome, <a style=\"color:white\" href=\"#\"> "+username+"</a> &nbsp; <a style=\"color:white\" href=\"/ebuy/CartPage\"> Cart("+product_count+")</a></div>"+
 			"</div>";
 	  }
 		else{

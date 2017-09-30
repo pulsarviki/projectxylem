@@ -15,12 +15,12 @@ public class ProductPage extends HttpServlet {
 	  SAXProductHandler s = new SAXProductHandler();
       HashMap<String, Product> products = null;
 	try {
-		URL url = getClass().getResource("ProductCatalog.xml");
-		System.out.println("Found ProductCatalog.xml--"+url.getPath());
-//		File file = new File(url.getPath());
-		products = s.readDataFromXML(url.getPath());
-		System.out.println("_--------------------");
-		PageContent.writeToFile(products, "products");
+// 		URL url = getClass().getResource("ProductCatalog.xml");
+// 		System.out.println("Found ProductCatalog.xml--"+url.getPath());
+// //		File file = new File(url.getPath());
+// 		products = s.readDataFromXML(url.getPath());
+// 		System.out.println("_--------------------");
+// 		PageContent.writeToFile(products, "products");
 	} catch (Exception e) {
 		System.out.println("Something went wrong!");
 		e.printStackTrace();

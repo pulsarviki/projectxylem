@@ -11,7 +11,7 @@ public class HomePage extends HttpServlet {
 
 	private PageContent contentManager;
 
-	public void init() throws ServletException {
+	public void liftProducts() throws ServletException {
 	  SAXProductHandler s = new SAXProductHandler();
       HashMap<String, Product> products = null;
 	try {
@@ -56,6 +56,12 @@ public class HomePage extends HttpServlet {
 
 		  HttpSession session = request.getSession();
 
+			if(session.getAttribute("liftedproducts")==null || ((String)session.getAttribute("liftedproducts")).equalsIgnoreCase("false"))
+			{
+				liftProducts();
+				session.setAttribute("liftedproducts","true");
+			}
+
 		  String usertype=(String)session.getAttribute("usertype");
 			String username=(String)session.getAttribute("username");
 			//contentManager.setContent("This is Home Page you are logged in! "+username+usertype);
@@ -73,18 +79,24 @@ public class HomePage extends HttpServlet {
 			if(cat == null || cat == "") {
 				isCategory = false;
 				category = "ALL PRODUCTS";
-			} else if(cat.toUpperCase().equals("TV")){
+			} else if(cat.toUpperCase().equals("SMARTWATCHES")){
 				isCategory = true;
-				category = "TV";
-			} else if(cat.toUpperCase().equals("TABLETS")){
+				category = "SMARTWATCHES";
+			} else if(cat.toUpperCase().equals("SPEAKERS")){
 				isCategory = true;
-				category = "TABLETS";
-			}  else if(cat.toUpperCase().equals("LAPTOPS")){
+				category = "SPEAKERS";
+			}  else if(cat.toUpperCase().equals("HEADPHONES")){
+				isCategory = true;
+				category = "HEADPHONES";
+			} else if(cat.toUpperCase().equals("PHONES")){
+				isCategory = true;
+				category = "PHONES";
+			} else if(cat.toUpperCase().equals("LAPTOPS")){
 				isCategory = true;
 				category = "LAPTOPS";
-			} else if(cat.toUpperCase().equals("SMARTPHONES")){
+			} else if(cat.toUpperCase().equals("EXTERNALSTORAGE")){
 				isCategory = true;
-				category = "SMARTPHONES";
+				category = "EXTERNALSTORAGE";
 			} else if(cat.toUpperCase().equals("OTHERS")){
 				isCategory = true;
 				category = "OTHERS";

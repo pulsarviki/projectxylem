@@ -23,13 +23,36 @@ public class RegisterPage extends HttpServlet {
 		String pwd = request.getParameter("password");
 		String rpwd = request.getParameter("rpassword");
 		String utype = request.getParameter("utype");
-
+    String act = request.getParameter("act");
 		System.out.println("YOO.." + user + pwd);
 
     if(userslist == null || userslist.isEmpty()) {
       userslist = new HashMap<String, Users>();
     }
 
+    if(act!=null && act.equalsIgnoreCase("CreateUser")){
+      if(!pwd.equals(rpwd) ) {
+  			System.out.println("Password mismatch..");
+  			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RegisterPage?"+"password-mismatch-TRY-AGAIN"));
+  		} else if(user == null || user == "") {
+  			System.out.println("Username required..");
+  			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RegisterPage?"+"Username-required-TRY-AGAIN"));
+  		} else if(userslist.get(user)!=null) {
+  			System.out.println("Username exists..");
+  			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RegisterPage?"+"Username-exists-TRY-AGAIN"));
+  		} else {
+  			System.out.println("User-registered-WELCOME..");
+  			Users userObj = new Users(user, pwd);
+  			userObj.setName(user);
+  			userObj.setUtype(utype);
+
+        userslist.put(user,userObj);
+        Users.dumpUsers(userslist);
+  			userslist = Users.loadUsers();
+        response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+    }
+  }
+    else{
 		if(!pwd.equals(rpwd) ) {
 			System.out.println("Password mismatch..");
 			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RegisterPage?"+"password-mismatch-TRY-AGAIN"));
@@ -59,8 +82,24 @@ public class RegisterPage extends HttpServlet {
       userName.setMaxAge(30*60);
       response.addCookie(userName);
 
-			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage?"+"User-registered-WELCOME-"+user));
+      if(utype.equalsIgnoreCase("CUSTOMER"))
+      {
+        response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+      }
+      else if(utype.equalsIgnoreCase("STOREMANAGER"))
+      {
+        response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/ManageProducts"));
+      }
+      else if(utype.equalsIgnoreCase("RETAILER"))
+      {
+        response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RetailerUpdate"));
+      }
+      else if(utype.equalsIgnoreCase("SALESMAN"))
+      {
+        response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+      }
 		}
+  }
 
 	}
 
@@ -70,6 +109,20 @@ public class RegisterPage extends HttpServlet {
 	PrintWriter out = response.getWriter();
 	//store.setBasicWithCSS("login");
 	String message = request.getParameter("message");
+  String act = request.getParameter("act");
+  HttpSession session = request.getSession();
+  String usertype=(String)session.getAttribute("usertype");
+  String username=(String)session.getAttribute("username");
+  //contentManager.setContent("This is Home Page you are logged in! "+username+usertype);
+  if(username!=null && usertype!=null)
+  {
+  toolkit.setHeader(usertype,username,toolkit.getProductsCount(session));
+  }
+
+  if(act==null)
+  {
+    act = "";
+  }
 
   if(message==null){
     message="";
@@ -92,7 +145,7 @@ public class RegisterPage extends HttpServlet {
 		"      <div class=\"blockinput\">"+
 		"        <i class=\"icon-unlock\"></i><input type=\"password\" placeholder=\"Reenter Password\" name=\"rpassword\">"+
 		"      </div><br>"+
-
+    "  <input type=\"hidden\" name=\"act\" value= \""+act+"\">"+
 		"      <div class=\"blockinput\">"+
 		"        <i class=\"icon-unlock\"></i>"+
 				"<select name=\"utype\">"+

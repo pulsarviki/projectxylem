@@ -16,15 +16,15 @@ public class LoginPage extends HttpServlet {
     contentManager = new PageContent();
   }
 
-  public void prinUsertMap(HashMap<String, Users> mapInFile) throws ServletException {
-
-	  for(Entry<String, Users> m :mapInFile.entrySet()){
-		    System.out.println(m.getKey());
-			Users c = m.getValue();
-			System.out.println("\t Name : "+c.getName());
-			System.out.println("\t type : "+c.getUtype());
-	  }
-  }
+  // public void prinUsertMap(HashMap<String, Users> mapInFile) throws ServletException {
+  //
+	//   for(Entry<String, Users> m :mapInFile.entrySet()){
+	// 	    System.out.println(m.getKey());
+	// 		Users c = m.getValue();
+	// 		System.out.println("\t Name : "+c.getName());
+	// 		System.out.println("\t type : "+c.getUtype());
+	//   }
+  // }
 
 
 	protected void doPost(HttpServletRequest request,
@@ -34,7 +34,7 @@ public class LoginPage extends HttpServlet {
 		    String pwd = request.getParameter("password");
         String utype = request.getParameter("utype");
 
-        prinUsertMap(users);
+        //prinUsertMap(users);
 
         Users userObj = users.get(user);
         System.out.println("Entering  if -----");
@@ -56,7 +56,22 @@ public class LoginPage extends HttpServlet {
       			userName.setMaxAge(30*60);
       			response.addCookie(userName);
             System.out.println("Redirecting  now-----");
-      			response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+            if(utype.equalsIgnoreCase("CUSTOMER"))
+            {
+              response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+            }
+            else if(utype.equalsIgnoreCase("STOREMANAGER"))
+            {
+              response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/ManageProducts"));
+            }
+            else if(utype.equalsIgnoreCase("RETAILER"))
+            {
+              response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/RetailerUpdate"));
+            }
+            else if(utype.equalsIgnoreCase("SALESMAN"))
+            {
+              response.sendRedirect(response.encodeRedirectURL(request.getContextPath() + "/HomePage"));
+            }
               System.out.println("Redirected now-----");
 		        }
 

@@ -90,6 +90,60 @@
 	<servlet-name>CheckoutPage</servlet-name>
 	<url-pattern>/CheckoutPage</url-pattern>
   </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>OrdersPage</servlet-name>
+	<servlet-class>OrdersPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>OrdersPage</servlet-name>
+	<url-pattern>/OrdersPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>OrderDetailsPage</servlet-name>
+	<servlet-class>OrderDetailsPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>OrderDetailsPage</servlet-name>
+	<url-pattern>/OrderDetailsPage</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>MyAccountPage</servlet-name>
+	<servlet-class>MyAccountPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>MyAccountPage</servlet-name>
+	<url-pattern>/MyAccountPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ManageProducts</servlet-name>
+	<servlet-class>ManageProducts</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>ManageProducts</servlet-name>
+	<url-pattern>/ManageProducts</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>RetailerUpdate</servlet-name>
+	<servlet-class>RetailerUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>RetailerUpdate</servlet-name>
+	<url-pattern>/RetailerUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UpdateAddProduct</servlet-name>
+	<servlet-class>UpdateAddProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>UpdateAddProduct</servlet-name>
+	<url-pattern>/UpdateAddProduct</url-pattern>
+  </servlet-mapping>
 
   <servlet>
   <servlet-name>LogoutPage</servlet-name>
